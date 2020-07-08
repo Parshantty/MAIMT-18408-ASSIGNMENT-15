@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+     font-weight: 20px;
+}
+
+
+header{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.row{
+    margin-left: 600px;
+    padding: 10px;
+}
+.col-20{
+    width: 10%;
+    float: left;
+
+}
+.col-40{
+    width: 40%;
+    display: flow-root;
+}
+input[type= text]{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+select{
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=email]{
+    width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=date]{
+    width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=password]{
+     width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.button{
+    margin:10px 0 0 620px;
+    padding:10px 10px 10px 10px;
+}
+.error{
+  color: red;
+  margin:10px 0 10px 610px; ;
+}
